@@ -1,9 +1,6 @@
 from nose.tools import *
 from exercises import ex12
-try:
-    from io import StringIO
-except:
-    from StringIO import StringIO
+from io import StringIO
 import sys
 
 def test_histogram():

@@ -8,7 +8,7 @@ def test_make_ing_form_ie():
     '''
 
     present_verb = ex25.make_ing_form('tie')
-    assert_equal(third_person_form, 'tying')
+    assert_equal(present_verb, 'tying')
 
 
 def test_make_ing_form_e():
@@ -17,7 +17,7 @@ def test_make_ing_form_e():
     '''
 
     present_verb = ex25.make_ing_form('grate')
-    assert_equal(third_person_form, 'grating')
+    assert_equal(present_verb, 'grating')
 
 
 def test_make_ing_form_s():
@@ -26,4 +26,4 @@ def test_make_ing_form_s():
     '''
 
     present_verb = ex25.make_ing_form('grab')
-    assert_equal(third_person_form, 'grabs')
+    assert_equal(present_verb, 'grabs')
